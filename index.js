@@ -20,7 +20,14 @@ class AlienShip1 {
     this.firepower = firepower
     this.accuracy = accuracy
     }
+
+    if (Math.random() < alien[0].accuracy) {
+        console.log('You have been hit!');
+    }
+    
 }
+
+
 
 class AlienShip2 {
     constructor(hull, firepower, accuracy){
